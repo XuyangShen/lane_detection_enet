@@ -22,7 +22,7 @@ Caused our model is designed based on the TuSimple lane detection competition, w
 * Note: Due to the offline generator(for train labels), it is a bit tricky(complex) to guide the training instructions. To make  it clear, we provide two main methods to train the model.
 The first main method only requires to download the TuSimple train set, while the second one requires to download another training component `label_set-tfRecord` [Download Address](https://github.com/XuyangSHEN/lane_detection_enet/raw/master/train_set/labels.zip).
 
-* traing commands:
+* training commands:
 ```bash
 $ python training.py -h
 usage: training.py [-h] [-i INPUT-PATH] [-m MODEL-PATH] [-l yes/no] [-gt PATH]
